@@ -4,3 +4,7 @@ This guide is currently only valid for WINDOWS, but it does not deal with all pr
  "C:\Program Files (x86)\MiKTeX 2.9\tex\latex" (so that you will have your files in "C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamers") 
  
  2) Open MikTeX 2.9 Settings/Options as administrator -> General tab -> Click Refresh FNDB  (may also try clicking update formats)
+
+ 3) Open a command window (cdm.exe) and run the following commands:
+	updmap --admin
+	initexmf --mkmaps
